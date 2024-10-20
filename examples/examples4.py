@@ -8,3 +8,8 @@ def example(color):
     
 what_is_it = example('blue')
 print(what_is_it)
+
+
+
+==================== RESTART: C:/Users/tvoym/Downloads/ex.py ===================
+This is sky
