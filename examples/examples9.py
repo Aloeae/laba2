@@ -4,3 +4,8 @@ def outer(out_param1, out_param2):
   return inner(out_param1, out_param2)
   
 print(outer(5,6))
+
+
+
+==================== RESTART: C:/Users/tvoym/Downloads/ex.py ===================
+11
