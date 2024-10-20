@@ -8,3 +8,11 @@ ranger = my_generate(1,4)
 
 for value in ranger:
   print(value)
+
+
+
+==================== RESTART: C:/Users/tvoym/Downloads/ex.py ===================
+1
+2
+3
+4
