@@ -4,5 +4,5 @@ def example():
 example()
 
 
-PS C:\Users\tvoym\test\test> python -u "c:\Users\tvoym\test\test\Untitled-1.py"
+==================== RESTART: C:/Users/tvoym/Downloads/ex.py ===================
 Hello, World! (c) Kazantsev
