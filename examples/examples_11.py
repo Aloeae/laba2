@@ -5,3 +5,8 @@ def outer2(out_param):
 
 value = outer2('TEST')
 print(value())
+
+
+
+==================== RESTART: C:/Users/tvoym/Downloads/ex.py ===================
+Outer def have value: TEST
