@@ -3,3 +3,8 @@ def cat(name, color, age):
   
 my_cat = cat(color = 'Grey', age = 9, name = 'Alise')
 print(my_cat)
+
+
+
+==================== RESTART: C:/Users/tvoym/Downloads/ex.py ===================
+{'name': 'Alise', 'color': 'Grey', 'age': 9}
