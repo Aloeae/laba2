@@ -3,11 +3,11 @@ from datetime import datetime
 def calculate_age():
     while True:
         #Запрос даты рождения в формате день.месяц.год
-        bd = input("Введите вашу дату рождения (дд.мм.гггг): ")
+        bd = input("Введите вашу дату рождения (дд/мм/гггг): ")
         
         try:
             #Преобразование строки в дату
-            birth_date = datetime.strptime(bd, "%d.%m.%Y")
+            birth_date = datetime.strptime(bd, "%d/%m/%Y")
             
             #Текущая дата
             today = datetime.today()
@@ -28,7 +28,7 @@ def calculate_age():
         
         except ValueError:
             #Обработка ошибки неправильного формата даты
-            print("Неверный формат. Введите дату в формате дд.мм.гггг.")
+            print("Неверный формат. Введите дату в формате дд/мм/гггг.")
             
 
 
