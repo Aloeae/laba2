@@ -4,3 +4,8 @@ def outer(out_param):
   return inner(out_param)
   
 print(outer('TEST'))
+
+
+
+==================== RESTART: C:/Users/tvoym/Downloads/ex.py ===================
+Outer def have value: TEST
